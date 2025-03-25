@@ -1,7 +1,13 @@
-export default function HomePage() {
-  return (
-    <main>
-      <h1>Hello, World!</h1>
-    </main>
-  );
+"use client";
+
+import React from "react";
+import { motion } from "framer-motion";
+import FramerComponent from '@/components/FramerComponent';
+
+export default function Home() {
+    return (
+        <div>
+            <FramerComponent />
+        </div>
+    );
 }
