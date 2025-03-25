@@ -1,1 +1,2 @@
 Set-ExecutionPolicy Restricted -Scope Process
+Set-ExecutionPolicy Unrestricted -Scope Process -Force
